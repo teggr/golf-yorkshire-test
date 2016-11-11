@@ -55,10 +55,12 @@ img {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .container {
     width: 100%;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
   .embed-video{
     width: 100%;
@@ -193,7 +195,11 @@ img {
   width: 45%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .massive-course-image {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
   .massive-course-image>a.brand {
     font-size: 2rem;
     line-height: 2.5rem;
