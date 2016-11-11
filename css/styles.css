@@ -105,6 +105,20 @@ img {
   margin-bottom: 1.5rem;
 }
 
+@media (max-width: 768px) {
+  .massive-course-image {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+  .massive-course-image>a.brand {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    left: 5px;
+    top: 5px;
+  }
+}
+
+
 .course-tags {
   margin-bottom: 1.5rem;
 }
@@ -196,14 +210,30 @@ img {
 }
 
 @media (max-width: 768px) {
-  .massive-course-image {
-    margin-left: -1em;
-    margin-right: -1em;
+
+  .course-guide-review>div.image-left {
+    float: none;
+    width: auto;
   }
-  .massive-course-image>a.brand {
-    font-size: 2rem;
-    line-height: 2.5rem;
-    left: 5px;
-    top: 5px;
+
+  .course-guide-review>div.image-left>img {
+      width: 50%;
+      margin: auto;
+      display: block;
+  }
+
+  .course-guide-review>div.overview {
+    float: none;
+    width: auto;
+  }
+
+  .overview-good {
+    float: none;
+    width: auto;
+  }
+
+  .overview-bad {
+    float: none;
+    width: auto;
   }
 }
